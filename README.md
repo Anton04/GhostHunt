@@ -12,7 +12,8 @@ Do a git clone into /home/pi
 To enable autostart:
   
   copy GhostHunt.sh to /etc/init.d
-  run: update-rc.d GhostHunt.sh enable
+  run:  update-rc.d GhostHunt.sh defaults
+        update-rc.d GhostHunt.sh enable
   
 Connect PIR motion sensor signal cable to port 23. Connect voltage to motion sensor. 
 
