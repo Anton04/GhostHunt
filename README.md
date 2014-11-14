@@ -16,7 +16,6 @@ To enable autostart:
   
 Connect PIR motion sensor signal cable to port 23. Connect voltage to motion sensor. 
 
-http://cdn.shopify.com/s/files/1/0254/2677/products/pi5_1024x1024.png?v=1384622988
+  http://cdn.shopify.com/s/files/1/0254/2677/products/pi5_1024x1024.png?v=1384622988
 
-  
 Connect battery pack and put everthing in a whaterproof case. 
