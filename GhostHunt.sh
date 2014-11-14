@@ -17,10 +17,10 @@
  SERVICE='GhostHunt.py'
  OPTIONS=''
  USERNAME='pi'
- APP_PATH='/home/pi/'
+ APP_PATH='/home/pi/GhostHunt'
  HISTORY=1024
  INVOCATION="sudo python $SERVICE" 
- SCREEN_SESSION='SolarRestApi'
+ SCREEN_SESSION='GhostHunt'
  ME=`whoami`
 
  as_user() {
