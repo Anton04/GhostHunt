@@ -45,14 +45,6 @@ class EnergyLogger():
 
 		self.pin = 23
 
-		#Config
-		self.config = {
-		      'user': 'spsensors',
-		      'password': 'BuCSlvWpl8reZP3R',
-		      'server': 'livinglab.powerprojects.se:6984',
-		      'database': 'ii'
-		}
-
 
 		GPIO.setmode(GPIO.BCM)
 
@@ -60,7 +52,7 @@ class EnergyLogger():
 		GPIO.setup(self.pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 		# when a falling or rising edge is detected on port 23, call callback2
-		GPIO.add_event_detect(self.pin, GPIO.BOTH, callback=self.my_callback3, bouncetime=0)
+		GPIO.add_event_detect(self.pin, GPIO.RISING, callback=self.my_callback3, bouncetime=0)
 
 		return
 
